@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 EditText editText = (EditText) findViewById(R.id.editText);
-                myWebView.loadUrl("http://google.co.jp");
+                myWebView.loadUrl(editText.getText().toString());
             }
         });
     }

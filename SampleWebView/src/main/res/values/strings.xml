@@ -8,5 +8,6 @@
     <string name="hello_world" >Hello world!
     </string>
     <string name="submit_button">送信</string>
+    <string name="http_protocol">http://</string>
 
 </resources>
